@@ -1,3 +1,7 @@
+<head>
+    <link href="stylesheet/Result.css"rel="stylesheet" type="text/css" media="screen">
+</head>
+
 <?php
     $cnpj = $_POST['cnpj'];
     $inscricao = $_POST['inscricao'];
@@ -29,6 +33,7 @@
 ?>
 
 <form>
-   <input type='button' value='Voltar' onclick="javascript: location.href='Cadastro de emprese.php';" />
+    <br><br>
+   <input type='button' value='Voltar' onclick="javascript: location.href='Cadastro de empresa.php';" />
    <input type='button' value='Prosseguir' onclick="javascript: location.href='Index.php';" />
 </form>
